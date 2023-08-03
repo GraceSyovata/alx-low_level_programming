@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print-binary as it prints the binary equivalent of a de. no
+ * print_binary- as it prints the binary equivalent of a dec  no
  * @n: no. to print in binary
  */
 void print_binary(unsigned long int n)
