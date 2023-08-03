@@ -1,10 +1,9 @@
 #include "main.h"
 /**
-*Grace-myfile
- * binar_uint This does convert a binary no. to unsigned int
- * @b: string containing the binary no.
+ * binary_to_uint- This does convert a binary no to unsigned int
+ * @b: string containing the binary no
  *
- * Return: the converted o.
+ * Return: the converted number
  */
 unsigned int binary_to_uint(const char *b)
 {
