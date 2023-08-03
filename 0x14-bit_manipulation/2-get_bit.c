@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * get_bit should  return the content of a bit at an ind. in a dec. no
+ * get_bit- should  return the content of a bit at an ind. in a dec. no
  * @n: number to search
  * @index: index of the bit
  *
