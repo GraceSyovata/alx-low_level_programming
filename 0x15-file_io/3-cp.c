@@ -45,11 +45,17 @@ void close_file(int fd)
 }
 
 /**
- * main - Copies the contents of one file to another. @argc: The total number of arguments passed to the program. @argv: An array of argument pointers.
-
- * * If successful, return 0.
- * Exit code 97 is returned if the argument count is wrong. Exit code 98 if file_from does not exist or cannot be read. If file_to cannot be created or written to, exit code 99 is returned. If file_to or file_from cannot be closed, exit code 100 is returned.
-*/
+ * main - Copies the contents of a file to another file.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
+ *
+ * Return: 0 on success.
+ *
+ * Description: If the argument count is incorrect - exit code 97.
+ * If file_from does not exist or cannot be read - exit code 98.
+ * If file_to cannot be created or written to - exit code 99.
+ * If file_to or file_from cannot be closed - exit code 100.
+ */
 int main(int argc, char *argv[])
 {
 	int from, to, r, w;
