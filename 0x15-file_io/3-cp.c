@@ -1,6 +1,5 @@
-#include <stdio.h>
+#include "main.h"
 #include <stdlib.h>
-#include "holberton.h"
 
 /**
 * main - program that copies the content of a file to another file
